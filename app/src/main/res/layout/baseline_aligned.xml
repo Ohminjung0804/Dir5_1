@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androiod="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    androiod:orientation="vertical"
+    androiod:layout_width="match_parent"
+    androiod:layout_height="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        androiod:orientation="horizontal"
+        androiod:layout_width="match_parent"
+        androiod:baselineAligned="false"
+        androiod:layout_height="wrap_content">
+        <Button
+            androiod:layout_width="wrap_content"
+            androiod:layout_height="70dp"
+            androiod:textSize="20dp"
+            androiod:text="@string/btn1"/>
+        <Button
+            androiod:layout_width="wrap_content"
+            androiod:layout_height="120dp"
+            androiod:textSize="20dp"
+            androiod:layout_marginLeft="15sp"
+            androiod:text="@string/btn2"/>
+        <Button
+            androiod:layout_width="wrap_content"
+            androiod:layout_height="130dp"
+            androiod:textSize="20dp"
+            androiod:layout_marginLeft="15sp"
+            androiod:text="@string/btn1"/>
+    </LinearLayout>
+    <LinearLayout
+        androiod:orientation="horizontal"
+        androiod:layout_marginTop="30dp"
+        androiod:baselineAligned="false"
+        androiod:layout_width="match_parent"
+        androiod:layout_height="wrap_content">
+        <TextView
+            androiod:layout_width="wrap_content"
+            androiod:layout_height="wrap_content"
+            androiod:layout_marginRight="15dp"
+            androiod:textSize="20sp"
+            androiod:text="@string/text1"/>
+        <TextView
+            androiod:layout_width="wrap_content"
+            androiod:layout_height="wrap_content"
+            androiod:layout_marginRight="15dp"
+            androiod:textSize="40sp"
+            androiod:text="@string/text2"/>
+        <TextView
+            androiod:layout_width="wrap_content"
+            androiod:layout_height="wrap_content"
+            androiod:textSize="60sp"
+            androiod:text="@string/text3"/>
+    </LinearLayout>
+
+</LinearLayout>
